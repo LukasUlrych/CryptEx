@@ -42,7 +42,7 @@ Keep in mind, that since a lot of exchanges do not support Stop and Trail orders
 Example: Let's say, that current price of BTC is 1100$.
 You want to buy it lower, somewhere below 1000$ ideally, but you want to give it some space to breathe.
 So you create a Trail order with Price = 950 and Trail = 5.
-This menas, than once price of BTC falls to 950, the order gets activated, but will not be triggered, until BTC rises by 5%.
+This means, than once price of BTC falls to 950, the order gets activated, but will not be triggered, until BTC rises by 5%.
 So if it falls to 900$ and then shoots up, the order will trigger a market buy at 900 * 1.05 = 945.
 
 You don't have to set Price if you don't want to. All you need to do is click **Start now** check button on the right side of the order window an the Trail order will be activcated immediately.
@@ -51,6 +51,7 @@ You don't have to set Price if you don't want to. All you need to do is click **
 Although ccxt supports more than 100 exchanges I do not have the means nor the willpower to test CryptEx on all of them. Always be aware of the fact, that you are using this software of your own volition and that I am not responsible in any way for any possible harm that this usage might cause you.
 
 Tested exchanges: **Binance, Kraken, KuCoin, Bittrex, Coinbase Pro, BitMax (AscendEx), Poloniex**
+
 Support for websockets (real-time price updates): **Binance, Kraken, KuCoin, Bittrex, Coinbase Pro, BitMax (AscendEx), Poloniex, HitBTC**
 - other exchanges use price updates via API calls (way slower)
 Support for margin trading: **Kraken**
