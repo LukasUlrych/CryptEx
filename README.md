@@ -1,5 +1,5 @@
 # CryptEx
-## A python based engine for cryptocurrency trading
+## Python based engine for cryptocurrency trading - WINDOWS 10 only (sorry mac/linux users)
 
 CryptEx allows you to:
  - create orders (market, limit, stop, trail) with the possibility of setting a follow-up order
@@ -7,7 +7,7 @@ CryptEx allows you to:
  - keep track of your current and past positions
  - keep track of all your crypto assets
 
-Based on ccxt library (https://github.com/ccxt/ccxt) for most of API calls, CryptEx provides user with clean (almost spartan) looking graphical user interface.
+Based on ccxt library (https://github.com/ccxt/ccxt) for most of API calls, CryptEx provides user with clean (almost spartan) looking graphical user interface. You can use CryptEx with or without direct acces to your accounts via API. If you chose to use it without API keys, you will still be able to see your positions across various exchanges but all inputs will need to be manual. With API keys all your existing positions (if given exchange allows it) will be copied into CryptEx automatically.
 
 ## Updating to new version
 Download latest release from https://github.com/LukasUlrych/CryptEx/releases/ and unpack the zip file. Now, before you delete the old version, it is absolutely vital that you copy folder 'Data' (it can be found in folder 'Auxilliary') and store it somewhere safe, since it contains all your data (yep, you've guessed correctly). After tripple checking that you've really stored correct folder 'Data', you can delete the old version, unzip the new one and replace new folder Data with your old one.
@@ -66,3 +66,8 @@ Mouse-wheel click allows you to transition between the two main frames of the ap
 When looking at closed orders table for given pair, you will notice **Index** column. This one is interactive by double-clicking and it serves the purpose of grouping orders into opan or closed positions. So if you bought 100 BTC in 5 buys and sold it all in 2 sells, you give all those orders the same index (numbers only). This position will then show on the other frame as closed with some basic info.
 
 If you have only bought something so far, the procedure is the same. Just index orders you want to have groupped together with the same index.
+
+# FAQ (really a work in progress)
+1. I have inserted my API keys but I can't see my private data (wallet info, closed orders etc.)
+- First, make sure you've inserted correct value to correct field. Most exchanges have Key and Secret named the same but some may not. Also, if given exchange doesn't show you any password value for API keys, just leave it empty.
+- If that doesn't help, try to sync your clock following e.g. this guide https://www.groovypost.com/howto/synchronize-clock-windows-10-with-internet-atomic-time/ This is a known issue with Binance that I have no way of correcting from my end. Sorry.
