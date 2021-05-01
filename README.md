@@ -9,15 +9,19 @@ CryptEx allows you to:
 
 Based on ccxt library (https://github.com/ccxt/ccxt) for most of API calls, CryptEx provides user with clean (almost spartan) looking graphical user interface.
 
+## Updating to new version
+Download latest release from https://github.com/LukasUlrych/CryptEx/releases/ and unpack the zip file. Now, before you delete the old version, it is absolutely vital that you copy folder 'Data' (it can be found in folder 'Auxilliary') and store it somewhere safe, since it contains all your data (yep, you've guessed correctly). After tripple checking that you've really stored correct folder 'Data', you can delete the old version, unzip the new one and replace new folder Data with your old one.
+
 ## Getting started
-Download latest release from https://github.com/LukasUlrych/CryptEx/releases/, unpack the zip and start CryptEx.exe. If you are uncertain about that, you can check with https://www.virustotal.com/gui/ for any malware or viruses, There shouldn't be any :)
+Download latest release from https://github.com/LukasUlrych/CryptEx/releases/, unpack the zip file and start CryptEx.exe. If you are uncertain about that, you can check with https://www.virustotal.com/gui/ for any malware or viruses, There shouldn't be any :)
 
 ### Adding new exchange
 In the right panel click **Show settings -> Exchanges settings -> Add exchange**
+
 Here you choose the exchagne you are looking for from the dropdown menu. If you wish so, you can also add your API keys here. The app will work without them, but you won't be able to to create orders, see your closed positions or your balances.
 
 ### Deleting exchange
-In top menu click **Settings -> Manage exchanges -> Delete exchange** and choose which one. Done You can check via https://www.virustotal.com/gui/ for any malware or viruses, There shouldn't be any :)
+In top menu click **Settings -> Manage exchanges -> Delete exchange**
 
 ### Add new pair
 In top menu click **Show settings -> Pairs settings -> Add pair**
@@ -25,7 +29,6 @@ Here you choose on which exchange and the pair itself. If you provided API keys,
 
 ### Delete pair
 In top menu click **Show settings -> Pairs settings -> Delete pair**
-Here you choose exchange and the pair itself. Done
 
 ### Changing graph
 In top menu click **Exchanges**, choose exchange and pair and voila. For quick acces you can pin current pair to watchlist by clicking **Add current** in left panel. Clicking **Remove current** removes it from watchlist.
@@ -54,11 +57,12 @@ Tested exchanges: **Binance, Kraken, KuCoin, Bittrex, Coinbase Pro, BitMax (Asce
 
 Support for websockets (real-time price updates): **Binance, Kraken, KuCoin, Bittrex, Coinbase Pro, BitMax (AscendEx), Poloniex, HitBTC**
 - other exchanges use price updates via API calls (way slower)
+
 Support for margin trading: **Kraken**
 
 ## Kinks
-Mouse-wheel click allows you to transition between the two main frames of the app. I will change it in the futrue to something more intuitive.
+Mouse-wheel click allows you to transition between the two main frames of the app. The same can be done by pressing Tab key.
 
 When looking at closed orders table for given pair, you will notice **Index** column. This one is interactive by double-clicking and it serves the purpose of grouping orders into opan or closed positions. So if you bought 100 BTC in 5 buys and sold it all in 2 sells, you give all those orders the same index (numbers only). This position will then show on the other frame as closed with some basic info.
 
-If you have only bought something so far, the procedure is the same. Jut index orders you want to have groupped together with the same index.
+If you have only bought something so far, the procedure is the same. Just index orders you want to have groupped together with the same index.
