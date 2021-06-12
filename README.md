@@ -87,6 +87,11 @@ Again, keep in mind, that trail orders are also being checked locally, so CryptE
 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/trail_order.png?raw=true)
 
+### Canceling open orders
+By double clicking the order in **Open orders** table the same window opens up, but with the extra **Cancel** button.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/cancel_order.png?raw=true)
+
 ### Switching frames
 Depending on how adventurous you are, you might have stumbled upon it yourself, but let us assume you haven't. By clicking Tab key or clicking mouse wheel you get to the second main frame of CryptEx.
 
@@ -99,10 +104,40 @@ Here you can see
  
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/tables_frame.png?raw=true)
 
-### Closed orders into positions
-If you already have some closed orders
+### Turn closed orders into positions
+If you already have some closed orders you can group them into closed and open positions. For this purpose there is the **Index** column - orders with the same index form one position. Whether the position is open or closed is determined automatically. 
+
+In the picture below you can see some fake orders I created.
 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/closed_as_frame.png?raw=true)
+
+And here you can see how it translates into positions - the orders with index 1 form a closed position (everything was sold). The order with index 2 is an open position.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/existing_positions.png?raw=true)
+
+### Changing indices
+By double clicking any closed order in the **Closed orders** table you can open a customization window where you can set indices (or change pretty much anything) for your closed orders.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/customize_closed_orders.png?raw=true)
+
+### Adding custom closed orders
+If you not added your API keys you still may use this functionality by creating fake closed orders. Right click the **Closed orders** table and select **Add custom order**. By clicking **Delete this order** you may delete the order you have right-clicked on.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/add_custom_closed_order.png?raw=true)
+
+### Updating data after exchange addition
+If you have added your API keys later or you trade through some othe mean and want to synchronize your data with CryptEx go to **Show settings -> Update exchange data** pick your exchange and let it sync.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/update_exchange_data.png?raw=true)
+
+### Creating price alerts
+By clicking **Create alert** in the right frame you open yet another window where you can customize your alert. Unfortunately, the alert (when triggered) so far only opens a new window, so you need to be in front of your computer to see it.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/first_alert.png?raw=true)
+
+After creatiing your first alert, this is what it will lokk like.
+
+![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/first_alert_set.png?raw=true)
 
 ## Exchange specific things
 Although ccxt supports more than 100 exchanges I do not have the means nor the willpower to test CryptEx on all of them. Always be aware of the fact, that you are using this software of your own volition and that I am not responsible in any way for any possible harm that this usage might cause you.
