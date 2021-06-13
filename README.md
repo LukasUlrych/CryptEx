@@ -18,7 +18,7 @@ Based on ccxt library (https://github.com/ccxt/ccxt) for most of API calls, Cryp
 Download latest release from https://github.com/LukasUlrych/CryptEx/releases/ and unpack the zip file. Now, before you delete the old version, it is absolutely vital that you copy folder **Data** (it can be found in folder **Auxilliary**) and store it somewhere safe, since it contains all your data. After tripple checking that you've really stored correct folder **Data**, you can delete the old version, unzip the new one and replace new folder Data with your old one.
 
 ## Getting started
-Download latest release from https://github.com/LukasUlrych/CryptEx/releases/, unpack the zip file and start CryptEx.exe. If you are uncertain about that, you can check with https://www.virustotal.com/gui/ (or any antivirus of your choice) for any malware or viruses. There shouldn't be any :)
+Download latest release from https://github.com/LukasUlrych/CryptEx/releases/, unpack the zip file and start CryptEx.exe. If you are uncertain about that, you can check with https://www.virustotal.com/gui/ (or any antivirus of your choice) for any malware or viruses. There aren't any :)
 
 ### Welcome screen
 When you first run CryptEx, this is what will welcome you. Not much I admit.
@@ -52,13 +52,15 @@ Now that you have added your first pair, you can see the chart by clicking **exc
 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/first_plot.png?raw=true)
 
+The smaller graph below the main one is the RSI indicator - currently this cannot be changed, maybe in the future.
+
 ### Watchlist
 For quick acces you can pin current pair to watchlist by clicking **Add current** in left panel. Clicking **Remove current** removes it from watchlist. The **Change** column in watchlist refers to yesterday's closing price.
 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/watchlist.png?raw=true)
 
 ### New welcome screen
-Now that you have added your first exchange and pair, you can finally set your welcome screen to something less ugly.
+Now that you have added your first exchange and pair, you can finally set your welcome screen the way you want.
 
 In the right panel click **Show settings -> Application -> Set initial graph** and take your pick.
 
