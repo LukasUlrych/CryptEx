@@ -173,9 +173,15 @@ CryptEx is my hobby project, so I work on it in my spare time. In no way do I ma
 If you have found CryptEx useful and feel like manifesting this gratitude in some way, here's all the info you need :)
 
 BTC: 35Hhzgmc4qxF6T7TmWQG213cSPowzPVfaD
+
 ETH: 0xAe6Cbd122adcB339F9869686a39f95030643c0DE
+
 LTC: LgJjYzXTqciDqndGetGyhdRfBP6RQ6GSwe
+
 XRP: rpdPWZTLkN3ZjkNwbwPTShT55Y6qcTNPpR
+
 DASH: XcB1oaTsHvUuXBxbiM2mJdoESdZVCCTprN
+
 ALIAS (public address): SZ9r4M1KVhiztDm76yEpbRXgmwWCxLNBKN
+
 ALIAS (stealth address): smYmruQX3H1SwaKkQmHQJcitwg7WDS2zsoj51fVFNbuTY9hvw2AyLdHjdZzxzLGbhYq3YCkvrGcNLRDYCGVnNhNCh59So4gwG3uBAC
