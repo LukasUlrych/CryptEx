@@ -130,8 +130,6 @@ By double clicking any closed order in the **Closed orders** table you can open 
 ### Adding custom closed orders
 If you've not added your API keys you still may use this functionality by creating fake closed orders by clicking **Add new** button. By clicking checkboxes on the lefit a  **Delete** button appears.
 
-![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/add_custom_closed_order.png?raw=true)
-
 This demonstration is just one way of how you can use the index functionality. Feel free to experiment and find the use that best suits you.
 
 ### Updating data after exchange addition
