@@ -1,5 +1,5 @@
 # CryptEx
-## Python based app for cryptocurrency trading - WINDOWS 10 only (sorry mac/linux users)
+## Python based app for cryptocurrency trading - Windows 10 and Linux versions available for 64 bit systems
 
 With CryptEx you:
  - have all crypto accounts accessible through one simple interface
@@ -128,7 +128,7 @@ By double clicking any closed order in the **Closed orders** table you can open 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/customize_closed_orders.png?raw=true)
 
 ### Adding custom closed orders
-If you've not added your API keys you still may use this functionality by creating fake closed orders. Right click the **Closed orders** table and select **Add custom order**. By clicking **Delete this order** you may delete the order you have right-clicked on.
+If you've not added your API keys you still may use this functionality by creating fake closed orders by clicking **Add new** button. By clicking checkboxes on the lefit a  **Delete** button appears.
 
 ![](https://github.com/LukasUlrych/CryptEx/blob/main/Images/add_custom_closed_order.png?raw=true)
 
